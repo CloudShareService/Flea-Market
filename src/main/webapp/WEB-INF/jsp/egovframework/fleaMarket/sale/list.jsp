@@ -18,7 +18,7 @@
 				<tbody>
 					<tr class="text-center">
 						<td class="p-2">
-							<img class="w-100" src="resources/img/shop/shop_img_1.jpg">
+							<img class="w-100" src="img/portfolio/01-full.jpg">
 						</td>
 						<td class="p-2">
 							<select class="w-60 pl-3">
