@@ -1,4 +1,4 @@
-package egovframework.myApp.cmmn.service;
+package egovframework.fleaMarket.cmmn.service;
 
 import java.util.ArrayList;
 import java.util.HashMap;

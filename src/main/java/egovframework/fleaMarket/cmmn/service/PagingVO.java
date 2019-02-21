@@ -1,4 +1,4 @@
-package egovframework.myApp.cmmn.service;
+package egovframework.fleaMarket.cmmn.service;
 
 public class PagingVO {
 
