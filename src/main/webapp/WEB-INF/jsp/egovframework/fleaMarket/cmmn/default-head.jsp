@@ -7,7 +7,7 @@
 <meta name="author" content="">
 
 <title>git test 입니다.</title>
-
+<link>
 <!-- Bootstrap core CSS -->
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
