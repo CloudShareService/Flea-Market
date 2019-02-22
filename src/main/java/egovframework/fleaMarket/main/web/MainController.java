@@ -56,10 +56,15 @@ public class MainController {
 		return "category/list.tiles";
 	}
 	
-	@RequestMapping(value = "/shoplogin.do.do",method = RequestMethod.GET)
+	@RequestMapping(value = "/shop.do",method = RequestMethod.GET)
 	public String home() throws Exception {
 		
 		return "shop/home.tiles";
 	}
 	
+	@RequestMapping(value = "/sale.do", method = RequestMethod.GET)
+	public String sale() throws Exception {
+		
+		return "";
+	}
 }
