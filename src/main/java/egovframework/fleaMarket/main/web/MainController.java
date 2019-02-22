@@ -56,7 +56,7 @@ public class MainController {
 		return "category/list.tiles";
 	}
 	
-	@RequestMapping(value = "/shop.do",method = RequestMethod.GET)
+	@RequestMapping(value = "/shoplogin.do.do",method = RequestMethod.GET)
 	public String home() throws Exception {
 		
 		return "shop/home.tiles";
