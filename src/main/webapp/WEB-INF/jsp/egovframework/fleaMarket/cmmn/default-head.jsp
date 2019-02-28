@@ -22,6 +22,9 @@
 <link href="css/agency.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" type='text/css'>
 
+<!-- google font -->
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
