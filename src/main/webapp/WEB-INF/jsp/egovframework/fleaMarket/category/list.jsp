@@ -34,7 +34,7 @@
 		<div class="row">
 			<div class="col-2" style="background-color:white;padding:0;">
 				<div>
-					<img class="w-100" src="resources/img/portfolio/01-thumbnail.jpg">
+					<img class="w-100" src="img/portfolio/01-thumbnail.jpg">
 				</div>
 				<div>
 					<div class="title mt-3 mb-3 col-12" style="padding:0">

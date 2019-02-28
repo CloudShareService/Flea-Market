@@ -61,5 +61,15 @@ public class MainController {
 		
 		return "shop/home.tiles";
 	}
+	@RequestMapping(value = "/review.do",method = RequestMethod.GET)
+	public String review() throws Exception {
+		
+		return "shop/review.tiles";
+	}
+	@RequestMapping(value = "/follower.do",method = RequestMethod.GET)
+	public String follower() throws Exception {
+		
+		return "shop/follower.tiles";
+	}
 	
 }

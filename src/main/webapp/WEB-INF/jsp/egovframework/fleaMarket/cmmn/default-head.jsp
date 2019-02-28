@@ -21,7 +21,7 @@
 <!-- Custom styles for this template -->
 <link href="css/agency.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" type='text/css'>
-
+<link href="css/shop.css" rel="stylesheet" type='text/css'>
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
