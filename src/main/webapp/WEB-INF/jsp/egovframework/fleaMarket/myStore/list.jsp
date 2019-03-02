@@ -5,13 +5,11 @@
 	.page-title .title_right {
 		float:right;
 	}
-	/*
-	.product-filter .input-group {
+	.top_search .input-group {
 		float:left;
 	}
-	*/
-	.form-group.pull-right.top_search .input-group {
-		float:left;
+	.top_search .input-group .input-group-btn{
+		width:auto;
 	}
 </style>
 
@@ -19,27 +17,7 @@
 		<div class="">
             <div class="page-title">
             	<div class="title_right">
-            		<!--  
-            		<div class="col-md-7 col-sm-7 col-xs-12 product-filter">
-			           	<div class="input-group">
-			       			<select class="form-control">
-			       				<option>10개씩</option>
-		                    	<option>20개씩</option>
-		                    	<option>50개씩</option>
-		                    	<option>100개씩</option>
-			       			</select>
-			       		</div>
-			       		<div class="input-group">
-			       			<select class="form-control">
-			       				<option>전체</option>
-		                    	<option>판매중</option>
-		                    	<option>예약중</option>
-		                    	<option>판매완료</option>
-			       			</select>
-			       		</div>
-            		</div>
-            		-->
-			       	<div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+			       	<div class="col-md-12 col-sm-12 col-xs-12 form-group pull-right top_search">
 			            <div class="input-group">
 			                <input type="text" class="form-control" placeholder="물품명을 입력하세요...">
 			                <span class="input-group-btn">
