@@ -70,7 +70,7 @@
 				</select>
 			</div>
 			<div class="col-4">
-				<input class="form-control form-control-sm" name="phone2" required>
+				<input class="form-control form-control-sm" name="phone2"  required>
 			</div>
 			<div class="col-4">
 				<input class="form-control form-control-sm" name="phone3" required>
@@ -140,6 +140,9 @@
 			
 			$frmRows.eq(1).on("keyup", "input", this.pwChkKeyUp);
 			
+			$frmRows.eq(3)	.on("keydown", "input", this.phoneKeydown);
+
+			
 			$frmRows.eq(5).on("keydown", "[readonly='readonly']", function(e) {
 	            if(e.keyCode == 8){
 	                return false;
@@ -148,6 +151,30 @@
 			
 			$frmRows.eq(6).on("click", "button", this.registBtnClick);
 			
+		},
+		phoneKeydown : function(e) {
+			var 	$this = $(e.target)
+				,	vali = false;	
+			
+			if ( e.keyCode > 47 && e.keyCode < 58 ) {
+				if ($this.val().length > 3 ) {
+					console.log("안됨1")
+					vali = false;
+				} else {
+					console.log("됨1")
+					vali =true;
+				}	
+			} else {
+				if ( e.keyCode === 9 || e.keyCode === 8 ) {
+					console.log("됨2")
+					vali = true;
+				} else {
+					console.log("안됨2")
+					vali = false;
+				}												
+			}
+			
+			return vali;
 		},
 		idChkBtnClick : function(e) {
 			var 	$this = $(e.target)
