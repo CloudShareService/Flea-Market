@@ -72,10 +72,4 @@ public class MainController {
 		return "shop/follower.tiles";
 	}
 	
-	@RequestMapping(value = "/product_home.do", method = RequestMethod.GET)
-	public String product_home() throws Exception {
-		
-		return "product/home.tiles";
-	}
-	
 }

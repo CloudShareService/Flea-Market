@@ -38,8 +38,8 @@
     
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 	    <property name="driverClassName" value="org.mariadb.jdbc.Driver"/>
-	    <property name="url" value="jdbc:mariadb://localhost:3306/kksll.c8emnh0bb9pj.us-east-2.rds.amazonaws.com" />
-	    <property name="username" value="root"/>
-	    <property name="password" value="root"/>
+	    <property name="url" value="jdbc:mariadb://kksll.c8emnh0bb9pj.us-east-2.rds.amazonaws.com:3306/kksll" />
+	    <property name="username" value="kksll"/>
+	    <property name="password" value="kksll***"/>
 	</bean>
 </beans>
