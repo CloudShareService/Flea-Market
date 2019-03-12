@@ -76,20 +76,31 @@
 	                  </div>
 	                  <div class="x_content">
 	                    <br />
-	                    <form class="form-horizontal form-label-left">
+	                    <form class="form-horizontal form-label-left" id="register_form" action="register.do" method="post">
 	
 	                      <div class="form-group">
 	                        <label class="control-label col-md-2 col-sm-2 col-xs-12">카테고리</label>
 	                        <div class="col-md-4 col-sm-4 col-xs-12">
-	                          <select class="form-control">
-	                            <option>여성의류</option>
-	                            <option>남성의류</option>
-	                            <option>패션잡화</option>
-	                            <option>뷰티/미용</option>
-	                            <option>유아동/출산</option>
+	                          <select class="form-control" name="categoryCode">
+	                            <option value="1">여성의류</option>
+	                            <option value="2">남성의류</option>
+	                            <option value="3">패션잡화</option>
+	                            <option value="4">뷰티/미용</option>
+	                            <option value="5">유아동/출산</option>
 	                          </select>
 	                        </div>
 	                      </div>
+	                      <div class="form-group">
+	                        <label class="control-label col-md-2 col-sm-2 col-xs-12">거래 방식</label>
+	                        <div class="col-md-4 col-sm-4 col-xs-12">
+	                          <select class="form-control" name="productTrade">
+	                            <option value="1">직거래</option>
+	                            <option value="2">선불택배(가격에 택배비 포함)</option>
+	                            <option value="3">착불택배(가격에 택배비 미포함)</option>
+	                          </select>
+	                        </div>
+	                      </div>
+	                      <!--  
 	                      <div class="form-group">
 	                        <label class="control-label col-md-2 col-sm-2 col-xs-12">거래 지역 </label>
 	                        <div class="col-md-4 col-sm-4 col-xs-12">
@@ -101,29 +112,31 @@
 	                        	<button type="button" class="btn btn-success">지역 검색</button>
 	                        </div>
 	                      </div>
+	                      -->
 	                      <div class="form-group">
 	                        <label class="control-label col-md-2 col-sm-2 col-xs-12">상태</label>
 	                        <div class="col-md-4 col-sm-4 col-xs-12">
-	                          <select class="form-control">
-	                            <option>상태 옵션1</option>
-	                            <option>상태 옵션2</option>
-	                            <option>상태 옵션3</option>
-	                            <option>상태 옵션4</option>
-	                            <option>상태 옵션5</option>
+	                          <select class="form-control" name="productStatementCode">
+	                            <option value="1">상태 옵션1</option>
+	                            <option value="2">상태 옵션2</option>
+	                            <option value="3">상태 옵션3</option>
+	                            <option value="4">상태 옵션4</option>
+	                            <option value="5">상태 옵션5</option>
 	                          </select>
 	                        </div>
 	                      </div>
 	                      <div class="form-group">
 	                        <label class="control-label col-md-2 col-sm-2 col-xs-12">제목</label>
 	                        <div class="col-md-9 col-sm-9 col-xs-12">
-                          		<input type="text" class="form-control" placeholder="제목 (최대 40자)">
+                          		<input type="text" class="form-control" placeholder="제목 (최대 40자)" name="productTitle">
                         	</div>
 	                      </div>
 	                      <div class="form-group">
 	                        <label class="control-label col-md-2 col-sm-2 col-xs-12">가격</label>
 	                        <div class="col-md-9 col-sm-9 col-xs-12">
-                          		<input type="text" class="form-control" placeholder="10000 (가격은 숫자로만 입력)">
+                          		<input type="text" class="form-control" placeholder="10000 (가격은 숫자로만 입력)" name="productPrice">
                         	</div>
+                        	<!--  
                         	<div class="col-md-2 col-sm-2 col-xs-12"></div>
                         	<div class="col-md-9 col-sm-9 col-xs-12">
 	                        	<div class="checkbox">
@@ -135,23 +148,26 @@
 	                            	</label>
 	                          	</div>
                           	</div>
+                          	-->
 	                      </div>
 	                      <div class="form-group">
 	                        <label class="control-label col-md-2 col-sm-2 col-xs-12">설명</label>
 	                        <div class="col-md-9 col-sm-9 col-xs-12">
-                          		<textarea class="form-control" rows="6" placeholder="상품설명은 2000자까지 가능합니다."></textarea>
+                          		<textarea class="form-control" rows="6" placeholder="상품설명은 2000자까지 가능합니다." name="productContents"></textarea>
                         	</div>
 	                      </div>
+	                      <!--  
 	                      <div class="form-group">
 	                        <label class="control-label col-md-2 col-sm-2 col-xs-12">연관태그</label>
 	                        <div class="col-md-9 col-sm-9 col-xs-12">
                           		<input type="text" class="form-control" placeholder="선택 사항 (예: 아이폰, 케이스)">
                         	</div>
 	                      </div>
+	                      -->
 	                      <div class="form-group">
 	                      	<label class="control-label col-md-2 col-sm-2 col-xs-12">수량</label>
 	                        <div class="col-md-9 col-sm-9 col-xs-12">
-                          		<input type="text" class="form-control" placeholder="1">
+                          		<input type="text" class="form-control" placeholder="1" name="productQuantity">
                         	</div>
 	                      </div>
 	                      <div class="form-group">
@@ -171,4 +187,7 @@
     <script src="myStore/vendors/dropzone/dist/min/dropzone.min.js"></script>
     <!-- Switchery -->
     <script src="myStore/vendors/switchery/dist/switchery.min.js"></script>
-        
+
+	<script type="text/javascript">
+		
+	</script>        

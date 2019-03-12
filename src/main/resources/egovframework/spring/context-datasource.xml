@@ -36,10 +36,19 @@
     </bean>
     -->
     
+    <!-- 실제 AWS connection  
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://kksll.c8emnh0bb9pj.us-east-2.rds.amazonaws.com:3306/kksll" />
         <property name="username" value="kksll"/>
         <property name="password" value="kksll***"/>
+    </bean>
+    -->
+    
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/flea_market?serverTimezone=UTC&amp;useSSL=false" />
+        <property name="username" value="testAdminUser1"/>
+        <property name="password" value="123123"/>
     </bean>
 </beans>
