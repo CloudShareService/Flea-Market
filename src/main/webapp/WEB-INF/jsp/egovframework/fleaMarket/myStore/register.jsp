@@ -94,9 +94,9 @@
 	                        <label class="control-label col-md-2 col-sm-2 col-xs-12">거래 방식</label>
 	                        <div class="col-md-4 col-sm-4 col-xs-12">
 	                          <select class="form-control" name="productTrade">
-	                            <option value="1">직거래</option>
-	                            <option value="2">선불택배(가격에 택배비 포함)</option>
-	                            <option value="3">착불택배(가격에 택배비 미포함)</option>
+	                            <option value="a">직거래</option>
+	                            <option value="b">선불택배(가격에 택배비 포함)</option>
+	                            <option value="c">착불택배(가격에 택배비 미포함)</option>
 	                          </select>
 	                        </div>
 	                      </div>
@@ -117,11 +117,8 @@
 	                        <label class="control-label col-md-2 col-sm-2 col-xs-12">상태</label>
 	                        <div class="col-md-4 col-sm-4 col-xs-12">
 	                          <select class="form-control" name="productStatementCode">
-	                            <option value="1">상태 옵션1</option>
-	                            <option value="2">상태 옵션2</option>
-	                            <option value="3">상태 옵션3</option>
-	                            <option value="4">상태 옵션4</option>
-	                            <option value="5">상태 옵션5</option>
+	                            <option value="a">중고</option>
+	                            <option value="b">새거</option>
 	                          </select>
 	                        </div>
 	                      </div>

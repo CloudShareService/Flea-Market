@@ -38,6 +38,8 @@ public class LoginController {
 	public String regist (
 			@RequestParam HashMap<String, Object> paramMap
 			) throws Exception {
+			/* System.out.println("paramMap : " + paramMap); */
+			
 			paramMap.put("registPw", encoder.encode(paramMap.get("registPw").toString()));
 
 			loginService.saveLoginServiceUserInfo("INSERT" ,paramMap);
