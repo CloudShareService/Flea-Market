@@ -366,5 +366,18 @@
 			</div>
 		</div>
 	</div>
+	
+	<div  class="test-form">
+		<form action="test.do" method="post" enctype="multipart/form-data">
+			<input id="imgInp" type="file">
+			<div id="dragdrop" class="col-12" style="height:300px;background-color:#efe9e9" >
+				<div class="preview col-3" style="height:300px;background-color:#efe9e9" >
+					
+				</div>
+			</div>
+			
+			<input type="submit" class="btn" value="버튼">
+		</form>
+	</div>
 </div>
 	

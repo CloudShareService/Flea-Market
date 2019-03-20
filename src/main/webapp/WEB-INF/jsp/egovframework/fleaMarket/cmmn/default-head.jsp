@@ -20,7 +20,6 @@
 <link href='' rel='stylesheet' type='text/css'>
 
 
-asdfasdf
 <!-- Custom styles for this template -->
 <link href="css/agency.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" type='text/css'>

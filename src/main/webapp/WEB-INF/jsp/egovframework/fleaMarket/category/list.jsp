@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!-- Portfolio Grid -->
-	<div class="container">
+	<div class="container" style="margin-top:102.66px">
 		<div class="row category_field m-2 mb-3">
 			<i class="fa fa-home m-2 my-auto" style="font-size:10px"> 홈</i>
 			<i class="fa fa-chevron-right m-2 my-auto" style="font-size:10px"></i>
@@ -11,12 +11,8 @@
 			<select class="m-2">
 				<option>반팔 티셔츠</option>
 			</select>
-			<i class="fa fa-chevron-right m-2 my-auto" style="font-size:10px"></i>
-			<select class=" m-2">
-				<option>라운드넥 티셔츠</option>
-			</select>
 			
-			<div class="col-6 text-right">
+			<div class="col-8 text-right">
 				<select class="m-2 p-1">
 					<option>최신순</option>
 					<option>인기순</option>
