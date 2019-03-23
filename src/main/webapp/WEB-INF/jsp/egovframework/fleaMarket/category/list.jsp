@@ -1,61 +1,389 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!-- Portfolio Grid -->
-<section class="bg-light" id="portfolio">
-	<div class="container">
+	<div class="container" style="margin-top:102.66px">
 		<div class="row category_field m-2 mb-3">
-			<i class="fa fa-home m-2"> 홈</i>
-			<i class="fa fa-chevron-right m-2"></i>
-			<select class=" m-2">
+			<i class="fa fa-home m-2 my-auto" style="font-size:10px"> 홈</i>
+			<i class="fa fa-chevron-right m-2 my-auto" style="font-size:10px"></i>
+			<select class="m-2 p-1">
 				<option>남성의류</option>
 			</select>
-			<i class="fa fa-chevron-right m-2"></i>
-			<select class=" m-2">
+			<i class="fa fa-chevron-right m-2 my-auto" style="font-size:10px"></i>
+			<select class="m-2">
 				<option>반팔 티셔츠</option>
 			</select>
-			<i class="fa fa-chevron-right m-2"></i>
-			<select class=" m-2">
-				<option>라운드넥 티셔츠</option>
-			</select>
-		</div>
-		<div class="row col-12 m-2 mb-3">
-			<div class="col-6 category_name">
-				<span>라운드넥 티셔츠</span>
-				<span>2,160</span>
-				<span>개</span>
+			
+			<div class="col-8 text-right">
+				<select class="m-2 p-1">
+					<option>최신순</option>
+					<option>인기순</option>
+					<option>저가순</option>
+					<option>고가순</option>
+				</select>
 			</div>
-			<div class="col-6 text-right">
-				<span class="p-1" style="border-right:1px solid black">최신순</span>
-				<span class="p-1"  style="border-right:1px solid black">인기순</span>
-				<span class="p-1"  style="border-right:1px solid black">저가순</span>
-				<span class="p-1" >고가순</span>
+		</div>
+		
+		<div class="row mb-5" style="background-color:#f9f9f9">
+			<div class="col-3 text-center py-1" style="border:1px solid #efefef">
+				<span>전체</span>
+			</div>
+			<div class="col-3 text-center py-1" style="border:1px solid #efefef">
+				<span>전체</span>
+			</div>
+			<div class="col-3 text-center py-1" style="border:1px solid #efefef">
+				<span>전체</span>
+			</div>
+			<div class="col-3 text-center py-1" style="border:1px solid #efefef">
+				<span>전체</span>
+			</div>
+			<div class="col-3 text-center py-1" style="border:1px solid #efefef">
+				<span>전체</span>
+			</div>
+			<div class="col-3 text-center py-1" style="border:1px solid #efefef">
+				<span>전체</span>
+			</div>
+			<div class="col-3 text-center py-1" style="border:1px solid #efefef">
+				
+			</div>
+			<div class="col-3 text-center py-1" style="border:1px solid #efefef">
+				
 			</div>
 		</div>
 			
-		<div class="row">
-			<div class="col-2" style="background-color:white;padding:0;">
-				<div>
-					<img class="w-100" src="resources/img/portfolio/01-thumbnail.jpg">
-				</div>
-				<div>
-					<div class="title mt-3 mb-3 col-12" style="padding:0">
-						<span>[FREE] 구찌 반팔티</span>
+		<div class="row mb-5">
+			<div class="col-3 px-0 mb-5">
+				<div class="col-8 mx-auto px-0" style="height:250px;background-color:white;border:1px solid #efefef;">
+					<div class="h-55">
+						<img class="w-100 h-100" src="img/portfolio/01-full.jpg">
 					</div>
-					<div class="price mt-3 mb-3 row col-12">
-						<div class="col-8" style="padding:0">
-							<span><b>20,000</b></span>
-							<span>원</span>
+					<div class="col-12 h-35 py-2">
+						<div class="title row py-2" style="padding:0">
+							<span>[FREE] 구찌 반팔티</span>
 						</div>
-						<div class="col-4 text-right" style="padding:0">
-							<span style="border:1px solid #efefef">HOT</span>
+						<div class="price row px-1 py-2">
+							<div class="col-8" style="padding:0">	
+								<span><b>20,000</b></span>
+								<span>원</span>
+							</div>
+							<div class="col-4 text-right" style="padding:0">
+								<b><span style="border:1px solid #efefef">HOT</span></b>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 mt-3" style="border:1px solid #efefef;padding:0">
-					<i class="fa fa-location-arrow">
-						서울시 동작구 사당동
-					</i>
+					<div class="col-12 h-10" style="border-top:1px solid #efefef;padding:0">
+						<i class="fa fa-location-arrow">
+							서울시 동작구 사당동
+						</i>
+					</div>
 				</div>
 			</div>
+			
+			<div class="col-3 px-0 mb-5">
+				<div class="col-8 mx-auto px-0" style="height:250px;background-color:white;border:1px solid #efefef;">
+					<div class="h-55">
+						<img class="w-100 h-100" src="img/portfolio/01-full.jpg">
+					</div>
+					<div class="col-12 h-35 py-2">
+						<div class="title row py-2" style="padding:0">
+							<span>[FREE] 구찌 반팔티</span>
+						</div>
+						<div class="price row px-1 py-2">
+							<div class="col-8" style="padding:0">	
+								<span><b>20,000</b></span>
+								<span>원</span>
+							</div>
+							<div class="col-4 text-right" style="padding:0">
+								<b><span style="border:1px solid #efefef">HOT</span></b>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 h-10" style="border-top:1px solid #efefef;padding:0">
+						<i class="fa fa-location-arrow">
+							서울시 동작구 사당동
+						</i>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-3 px-0 mb-5">
+				<div class="col-8 mx-auto px-0" style="height:250px;background-color:white;border:1px solid #efefef;">
+					<div class="h-55">
+						<img class="w-100 h-100" src="img/portfolio/01-full.jpg">
+					</div>
+					<div class="col-12 h-35 py-2">
+						<div class="title row py-2" style="padding:0">
+							<span>[FREE] 구찌 반팔티</span>
+						</div>
+						<div class="price row px-1 py-2">
+							<div class="col-8" style="padding:0">	
+								<span><b>20,000</b></span>
+								<span>원</span>
+							</div>
+							<div class="col-4 text-right" style="padding:0">
+								<b><span style="border:1px solid #efefef">HOT</span></b>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 h-10" style="border-top:1px solid #efefef;padding:0">
+						<i class="fa fa-location-arrow">
+							서울시 동작구 사당동
+						</i>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-3 px-0 mb-5">
+				<div class="col-8 mx-auto px-0" style="height:250px;background-color:white;border:1px solid #efefef;">
+					<div class="h-55">
+						<img class="w-100 h-100" src="img/portfolio/01-full.jpg">
+					</div>
+					<div class="col-12 h-35 py-2">
+						<div class="title row py-2" style="padding:0">
+							<span>[FREE] 구찌 반팔티</span>
+						</div>
+						<div class="price row px-1 py-2">
+							<div class="col-8" style="padding:0">	
+								<span><b>20,000</b></span>
+								<span>원</span>
+							</div>
+							<div class="col-4 text-right" style="padding:0">
+								<b><span style="border:1px solid #efefef">HOT</span></b>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 h-10" style="border-top:1px solid #efefef;padding:0">
+						<i class="fa fa-location-arrow">
+							서울시 동작구 사당동
+						</i>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-3 px-0 mb-5">
+				<div class="col-8 mx-auto px-0" style="height:250px;background-color:white;border:1px solid #efefef;">
+					<div class="h-55">
+						<img class="w-100 h-100" src="img/portfolio/01-full.jpg">
+					</div>
+					<div class="col-12 h-35 py-2">
+						<div class="title row py-2" style="padding:0">
+							<span>[FREE] 구찌 반팔티</span>
+						</div>
+						<div class="price row px-1 py-2">
+							<div class="col-8" style="padding:0">	
+								<span><b>20,000</b></span>
+								<span>원</span>
+							</div>
+							<div class="col-4 text-right" style="padding:0">
+								<b><span style="border:1px solid #efefef">HOT</span></b>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 h-10" style="border-top:1px solid #efefef;padding:0">
+						<i class="fa fa-location-arrow">
+							서울시 동작구 사당동
+						</i>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-3 px-0 mb-5">
+				<div class="col-8 mx-auto px-0" style="height:250px;background-color:white;border:1px solid #efefef;">
+					<div class="h-55">
+						<img class="w-100 h-100" src="img/portfolio/01-full.jpg">
+					</div>
+					<div class="col-12 h-35 py-2">
+						<div class="title row py-2" style="padding:0">
+							<span>[FREE] 구찌 반팔티</span>
+						</div>
+						<div class="price row px-1 py-2">
+							<div class="col-8" style="padding:0">	
+								<span><b>20,000</b></span>
+								<span>원</span>
+							</div>
+							<div class="col-4 text-right" style="padding:0">
+								<b><span style="border:1px solid #efefef">HOT</span></b>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 h-10" style="border-top:1px solid #efefef;padding:0">
+						<i class="fa fa-location-arrow">
+							서울시 동작구 사당동
+						</i>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-3 px-0 mb-5">
+				<div class="col-8 mx-auto px-0" style="height:250px;background-color:white;border:1px solid #efefef;">
+					<div class="h-55">
+						<img class="w-100 h-100" src="img/portfolio/01-full.jpg">
+					</div>
+					<div class="col-12 h-35 py-2">
+						<div class="title row py-2" style="padding:0">
+							<span>[FREE] 구찌 반팔티</span>
+						</div>
+						<div class="price row px-1 py-2">
+							<div class="col-8" style="padding:0">	
+								<span><b>20,000</b></span>
+								<span>원</span>
+							</div>
+							<div class="col-4 text-right" style="padding:0">
+								<b><span style="border:1px solid #efefef">HOT</span></b>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 h-10" style="border-top:1px solid #efefef;padding:0">
+						<i class="fa fa-location-arrow">
+							서울시 동작구 사당동
+						</i>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-3 px-0 mb-5">
+				<div class="col-8 mx-auto px-0" style="height:250px;background-color:white;border:1px solid #efefef;">
+					<div class="h-55">
+						<img class="w-100 h-100" src="img/portfolio/01-full.jpg">
+					</div>
+					<div class="col-12 h-35 py-2">
+						<div class="title row py-2" style="padding:0">
+							<span>[FREE] 구찌 반팔티</span>
+						</div>
+						<div class="price row px-1 py-2">
+							<div class="col-8" style="padding:0">	
+								<span><b>20,000</b></span>
+								<span>원</span>
+							</div>
+							<div class="col-4 text-right" style="padding:0">
+								<b><span style="border:1px solid #efefef">HOT</span></b>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 h-10" style="border-top:1px solid #efefef;padding:0">
+						<i class="fa fa-location-arrow">
+							서울시 동작구 사당동
+						</i>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-3 px-0 mb-5">
+				<div class="col-8 mx-auto px-0" style="height:250px;background-color:white;border:1px solid #efefef;">
+					<div class="h-55">
+						<img class="w-100 h-100" src="img/portfolio/01-full.jpg">
+					</div>
+					<div class="col-12 h-35 py-2">
+						<div class="title row py-2" style="padding:0">
+							<span>[FREE] 구찌 반팔티</span>
+						</div>
+						<div class="price row px-1 py-2">
+							<div class="col-8" style="padding:0">	
+								<span><b>20,000</b></span>
+								<span>원</span>
+							</div>
+							<div class="col-4 text-right" style="padding:0">
+								<b><span style="border:1px solid #efefef">HOT</span></b>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 h-10" style="border-top:1px solid #efefef;padding:0">
+						<i class="fa fa-location-arrow">
+							서울시 동작구 사당동
+						</i>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-3 px-0 mb-5">
+				<div class="col-8 mx-auto px-0" style="height:250px;background-color:white;border:1px solid #efefef;">
+					<div class="h-55">
+						<img class="w-100 h-100" src="img/portfolio/01-full.jpg">
+					</div>
+					<div class="col-12 h-35 py-2">
+						<div class="title row py-2" style="padding:0">
+							<span>[FREE] 구찌 반팔티</span>
+						</div>
+						<div class="price row px-1 py-2">
+							<div class="col-8" style="padding:0">	
+								<span><b>20,000</b></span>
+								<span>원</span>
+							</div>
+							<div class="col-4 text-right" style="padding:0">
+								<b><span style="border:1px solid #efefef">HOT</span></b>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 h-10" style="border-top:1px solid #efefef;padding:0">
+						<i class="fa fa-location-arrow">
+							서울시 동작구 사당동
+						</i>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-3 px-0 mb-5">
+				<div class="col-8 mx-auto px-0" style="height:250px;background-color:white;border:1px solid #efefef;">
+					<div class="h-55">
+						<img class="w-100 h-100" src="img/portfolio/01-full.jpg">
+					</div>
+					<div class="col-12 h-35 py-2">
+						<div class="title row py-2" style="padding:0">
+							<span>[FREE] 구찌 반팔티</span>
+						</div>
+						<div class="price row px-1 py-2">
+							<div class="col-8" style="padding:0">	
+								<span><b>20,000</b></span>
+								<span>원</span>
+							</div>
+							<div class="col-4 text-right" style="padding:0">
+								<b><span style="border:1px solid #efefef">HOT</span></b>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 h-10" style="border-top:1px solid #efefef;padding:0">
+						<i class="fa fa-location-arrow">
+							서울시 동작구 사당동
+						</i>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-3 px-0 mb-5">
+				<div class="col-8 mx-auto px-0" style="height:250px;background-color:white;border:1px solid #efefef;">
+					<div class="h-55">
+						<img class="w-100 h-100" src="img/portfolio/01-full.jpg">
+					</div>
+					<div class="col-12 h-35 py-2">
+						<div class="title row py-2" style="padding:0">
+							<span>[FREE] 구찌 반팔티</span>
+						</div>
+						<div class="price row px-1 py-2">
+							<div class="col-8" style="padding:0">	
+								<span><b>20,000</b></span>
+								<span>원</span>
+							</div>
+							<div class="col-4 text-right" style="padding:0">
+								<b><span style="border:1px solid #efefef">HOT</span></b>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 h-10" style="border-top:1px solid #efefef;padding:0">
+						<i class="fa fa-location-arrow">
+							서울시 동작구 사당동
+						</i>
+					</div>
+				</div>
+			</div>
+			
 		</div>
+		
+		<div class="col-8 paging mx-auto">
+			<div class="row">
+				<a class="p-2 my-auto" href="#" style="border-radius: 100%;background-color:#efefef;color:white"><b>Prev</b></a>
+				<a class="p-2 my-auto" href="#" style="border-radius: 100%;background-color:#efefef;color:white"><b>11</b></a>
+				<a class="p-2 my-auto" href="#" style="border-radius: 100%;background-color:#efefef;color:white"><b>11</b></a>
+				<a class="p-2 my-auto" href="#" style="border-radius: 100%;background-color:#efefef;color:white"><b>11</b></a>
+				<a class="p-2 my-auto" href="#" style="border-radius: 100%;background-color:#efefef;color:white"><b>Next</b></a>
+			</div>
+		</div>
+		
 	</div>
-</section>

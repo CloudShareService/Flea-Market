@@ -49,20 +49,15 @@
 	</repositories>
 
 	<dependencies>
-		<!-- jsonUtil 사용을 위한 라이브러리 시작 -->
-		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-			<version>2.8.0</version>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.6</version>
+			<scope>provided</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
-		<dependency>
-			<groupId>org.jsoup</groupId>
-			<artifactId>jsoup</artifactId>
-			<version>1.11.2</version>
-		</dependency>
-		
+
 		<!-- spring security -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
@@ -85,7 +80,20 @@
 			<version>${spring.maven.artifact.version}</version>
 		</dependency>
 		<!-- spring security -->
-		
+
+		<!-- jsonUtil 사용을 위한 라이브러리 시작 -->
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.11.2</version>
+		</dependency>
 		<!-- jsonUtil 사용을 위한 라이브러리 끝 -->
 
 		<!-- 타일즈 라이브러리 : 시작 -->
@@ -113,14 +121,7 @@
 			<version>2.4</version>
 		</dependency>
 		<!-- 이미지 업로드 끝 -->
-		
-		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-      	<dependency>
-        	<groupId>org.projectlombok</groupId>
-        	<artifactId>lombok</artifactId>
-        	<version>1.18.6</version>
-        	<scope>provided</scope>
-      	</dependency>
+
 
 		<!-- 표준프레임워크 실행환경 -->
 		<dependency>
@@ -174,6 +175,15 @@
 			<artifactId>antlr</artifactId>
 			<version>3.5</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok</artifactId>
+		    <version>1.18.6</version>
+		    <scope>provided</scope>
+		</dependency>
+		
 
 		<dependency>
 			<groupId>org.hsqldb</groupId>
@@ -182,23 +192,6 @@
 		</dependency>
 
 		<!-- mysql이나 oracle 필요시 사용 -->
-        <!--
-        
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.31</version>
-        </dependency>
-
-        <dependency>
-            <groupId>ojdbc</groupId>
-            <artifactId>ojdbc</artifactId>
-            <version>14</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/ojdbc-14.jar</systemPath>
-        </dependency>
-        -->
-        
         <dependency>
             <groupId>com.googlecode.log4jdbc</groupId>
             <artifactId>log4jdbc</artifactId>
@@ -211,24 +204,20 @@
             </exclusions>
         </dependency>
         
-        <dependency>
-            <groupId>commons-dbcp</groupId>
-            <artifactId>commons-dbcp</artifactId>
-            <version>1.4</version>
-        </dependency>
-          
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.11</version>
-        </dependency>
-		<!--  
-        <dependency>
-        	<groupId>org.mariadb.jdbc</groupId>
-        	<artifactId>mariadb-java-client</artifactId>
-        	<version>2.2.1</version>
-        </dependency>
-        -->
+        <!-- commons-dbcp -->
+		<dependency>
+		<groupId>org.apache.commons</groupId>
+		<artifactId>commons-dbcp2</artifactId>
+		<version>2.1.1</version>
+		</dependency>
+        
+        <!-- mariaDB -->
+		<dependency>
+		    <groupId>org.mariadb.jdbc</groupId>
+		    <artifactId>mariadb-java-client</artifactId>
+		    <version>2.2.1</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>

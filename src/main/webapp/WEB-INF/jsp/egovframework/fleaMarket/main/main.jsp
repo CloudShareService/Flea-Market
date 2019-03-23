@@ -5,395 +5,381 @@
 		<div class="intro-text">
 			<div class="intro-lead-in">Welcome To Our Studio!</div>
 			<div class="intro-heading text-uppercase">It's Nice To Meet You</div>
+			<div class="search-bar row col-6 px-0 mx-auto mb-5 mt-5">
+				<input class="p-2 col-10 px-0" type="text" placeholder="search" style="font-size:30px;border-color:#fec810;border-width:2px 0px 2px 2px;border-style:solid">
+				<div class="p-3 col2 px-0" style="background-color:white;border-color:#fec810;border-width:2px 2px 2px 0px;border-style:solid">
+					<i class="fa fa-search fa-2x" style="color:#fec810"></i>
+				</div>
+			</div>
 			<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
 		</div>
 	</div>
 </header>
 
-<!-- Services -->	
-<section id="services">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2 class="section-heading text-uppercase">Services</h2>
-				<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+<section class="pt-0 mt-2">
+	<div class="container-fuild">
+		<!-- <div class="col-6 px-0 mx-auto row mt-5">
+			<div id="carouselExampleIndicators"data-ride="carousel" data-interval="false" style="height:350px;">
+				<div class="carousel-inner row mx-0 h-100" role="listbox">
+					Slide One - Set the background image for this slide in the line below
+					<div class="carousel-itemactive h-100">
+						<img class="w-100 h-100" src="img/header-bg.jpg">
+					</div>
+				</div>  
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="fa fa-chevron-left fa-3x" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="fa fa-chevron-right fa-3x" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div> -->
+	
+		<div class="col-12 mx-auto px-0 pt-5 pb-5" style="background-color:#f9f9f9">
+			<div class="col-7 pl-5 mx-auto">
+				<h3 style="color:#adaaaa">추천 상품</h3>
+			</div>
+			<div class="col-8 px-0 mx-auto row" style="height:350px;">
+				<a class="carousel-control-prev col-1 px-0 h-30 my-auto" href="#carouselExampleIndicators" role="button" data-slide="prev" style="position:relative;">
+					<span class="fa fa-chevron-left fa-3x" aria-hidden="true" style="color:#fed136;"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<div id="carouselExampleIndicators" class="carousel col-10 slide h-100 px-0" data-ride="carousel" data-interval="false">
+					<div class="carousel-inner row h-100 mx-0" role="listbox">
+						<!-- Slide One - Set the background image for this slide in the line below -->
+						<div class="carousel-itemactive h-100">
+							<div class=" col-12 row h-100 px-0 mx-0">
+								<div class="col-3 h-100 pt-3">
+									<div class="col-11 px-0 h-100 m-1 mx-auto" style="background-color:white;border:1px solid #efe9e9">
+										<div class="col-12 h-65 p-3">
+												<img class="w-100 h-100" alt="" src="img/header-bg.jpg" style="border-radius: 40%;">
+										</div>
+										<div class="col-12 h-15 px-0 pt-2 text-center">
+											<span>정품 아디다스 바지</span>
+										</div>
+										<div class="col-10 mx-auto h-20 px-0 pt-2 pb-2 text-left form-inline" style="border-top:2px dotted #ccc">
+											<div class="col-8 px-0">
+												<span ><b>70,000</b></span>
+												<span><b>원</b></span>
+											</div>
+											<div class="col-4 px-0">
+												<span style="font-size:10px">7</span>
+												<span style="font-size:10px">시간 전</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-3 h-100 pt-3">
+									<div class="col-11 px-0 h-100 m-1 mx-auto" style="background-color:white;border:1px solid #efe9e9">
+										<div class="col-12 h-65 p-3">
+												<img class="w-100 h-100" alt="" src="img/header-bg.jpg" style="border-radius: 40%;">
+										</div>
+										<div class="col-12 h-15 px-0 pt-2 text-center">
+											<span>정품 아디다스 바지</span>
+										</div>
+										<div class="col-10 mx-auto h-20 px-0 pt-2 pb-2 text-left form-inline" style="border-top:2px dotted #ccc">
+											<div class="col-8 px-0">
+												<span ><b>70,000</b></span>
+												<span><b>원</b></span>
+											</div>
+											<div class="col-4 px-0">
+												<span style="font-size:10px">7</span>
+												<span style="font-size:10px">시간 전</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-3 h-100 pt-3">
+									<div class="col-11 px-0 h-100 m-1 mx-auto" style="background-color:white;border:1px solid #efe9e9">
+										<div class="col-12 h-65 p-3">
+												<img class="w-100 h-100" alt="" src="img/header-bg.jpg" style="border-radius: 40%;">
+										</div>
+										<div class="col-12 h-15 px-0 pt-2 text-center">
+											<span>정품 아디다스 바지</span>
+										</div>
+										<div class="col-10 mx-auto h-20 px-0 pt-2 pb-2 text-left form-inline" style="border-top:2px dotted #ccc">
+											<div class="col-8 px-0">
+												<span ><b>70,000</b></span>
+												<span><b>원</b></span>
+											</div>
+											<div class="col-4 px-0">
+												<span style="font-size:10px">7</span>
+												<span style="font-size:10px">시간 전</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-3 h-100 pt-3">
+									<div class="col-11 px-0 h-100 m-1 mx-auto" style="background-color:white;border:1px solid #efe9e9">
+										<div class="col-12 h-65 p-3">
+												<img class="w-100 h-100" alt="" src="img/header-bg.jpg" style="border-radius: 40%;">
+										</div>
+										<div class="col-12 h-15 px-0 pt-2 text-center">
+											<span>정품 아디다스 바지</span>
+										</div>
+										<div class="col-10 mx-auto h-20 px-0 pt-2 pb-2 text-left form-inline" style="border-top:2px dotted #ccc">
+											<div class="col-8 px-0">
+												<span ><b>70,000</b></span>
+												<span><b>원</b></span>
+											</div>
+											<div class="col-4 px-0">
+												<span style="font-size:10px">7</span>
+												<span style="font-size:10px">시간 전</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>  
+				</div>
+				<a class="carousel-control-next col-1 px-0 h-30 my-auto" href="#carouselExampleIndicators" role="button" data-slide="next" style="position:relative;">
+					<span class="fa fa-chevron-right fa-3x" aria-hidden="true" style="color:#fed136"></span>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
 		</div>
-		<div class="row text-center">
-			<div class="col-md-4">
-				<span class="fa-stack fa-4x">
-					<i class="fas fa-circle fa-stack-2x text-primary"></i>
-					<i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-				</span>
-				<h4 class="service-heading">E-Commerce</h4>
-				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-			</div>
-			<div class="col-md-4">
-				<span class="fa-stack fa-4x">
-					<i class="fas fa-circle fa-stack-2x text-primary"></i>
-					<i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-				</span>
-				<h4 class="service-heading">Responsive Design</h4>
-				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-			</div>
-			<div class="col-md-4">
-				<span class="fa-stack fa-4x">
-					<i class="fas fa-circle fa-stack-2x text-primary"></i>
-					<i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-				</span>
-				<h4 class="service-heading">Web Security</h4>
-				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-			</div>
+		
+		
+		
+	
+		<div class="col-6 mx-auto px-0 mt-5">
+			<img class="w-100 h-100" src="img/advertise/ad_01.jpg">
 		</div>
-	</div>
-</section>
-
-<!-- Portfolio Grid -->
-<section class="bg-light" id="portfolio">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2 class="section-heading text-uppercase">Portfolio</h2>
-				<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 col-sm-6 portfolio-item">
-				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-					<div class="portfolio-hover">
-						<div class="portfolio-hover-content">
-							<i class="fas fa-plus fa-3x"></i>
+	
+		<div class="col-8 mx-auto mt-5">
+			<div class="col-10 mx-auto px-0 row" style="height:80px;border-top:2px solid black; border-bottom:1px solid #c2c2c2;">
+				<div class="col-4 px-0 mx-auto h-100">
+					
+				</div>
+				<div class="col-8 px-0 pb-4 row h-100" >
+					<div class="col-2 pt-2 px-0">
+						<div class="col-12 text-center  h-70" >
+							<i class="fa fa-user fa-2x" style="color:#adaaaa"></i>
+						</div>	
+						<div class="col-12 text-center h-30" >
+							<span style="color:#adaaaa"><b>의류</b></span>
 						</div>
 					</div>
-					<img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
-				</a>
-				<div class="portfolio-caption">
-					<h4>Threads</h4>
-					<p class="text-muted">Illustration</p>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6 portfolio-item">
-				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-					<div class="portfolio-hover">
-						<div class="portfolio-hover-content">
-							<i class="fas fa-plus fa-3x"></i>
+					<div class="col-2 pt-2 px-0">
+						<div class="col-12 text-center h-70" >
+							<i class="fa fa-spray-can fa-2x" style="color:#adaaaa"></i>
+						</div>
+						<div class="col-12 px-0 text-center h-30" >
+							<span style="color:#adaaaa"><b>뷰티/미용</b></span>
 						</div>
 					</div>
-					<img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
-				</a>
-				<div class="portfolio-caption">
-					<h4>Explore</h4>
-					<p class="text-muted">Graphic Design</p>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6 portfolio-item">
-				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-					<div class="portfolio-hover">
-						<div class="portfolio-hover-content">
-							<i class="fas fa-plus fa-3x"></i>
+					<div class="col-2 pt-2 px-0">
+						<div class="col-12 text-center h-70" >
+							<i class="fa fa-baby-carriage fa-2x" style="color:#adaaaa"></i>
+						</div>
+						<div class="col-12 px-0 text-center h-30" >
+							<span style="color:#adaaaa"><b>유아/출산</b></span>
 						</div>
 					</div>
-					<img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
-				</a>
-				<div class="portfolio-caption">
-					<h4>Finish</h4>
-					<p class="text-muted">Identity</p>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6 portfolio-item">
-				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-					<div class="portfolio-hover">
-						<div class="portfolio-hover-content">
-							<i class="fas fa-plus fa-3x"></i>
+					<div class="col-2 pt-2 px-0">
+						<div class="col-12 text-center h-70" >
+							<i class="fa fa-desktop fa-2x" style="color:#adaaaa"></i>
+						</div>
+						<div class="col-12 px-0  text-center h-30" >
+							<span style="color:#adaaaa"><b>디지털/가전</b></span>
 						</div>
 					</div>
-					<img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-				</a>
-				<div class="portfolio-caption">
-					<h4>Lines</h4>
-					<p class="text-muted">Branding</p>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6 portfolio-item">
-				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-					<div class="portfolio-hover">
-						<div class="portfolio-hover-content">
-							<i class="fas fa-plus fa-3x"></i>
+					<div class="col-2 pt-2 px-0">
+						<div class="col-12 text-center h-70" >
+							<i class="fa fa-book fa-2x" style="color:#adaaaa"></i>
+						</div>
+						<div class="col-12 px-0  text-center h-30" >
+							<span style="color:#adaaaa"><b>도서/티켓</b></span>
 						</div>
 					</div>
-					<img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-				</a>
-				<div class="portfolio-caption">
-					<h4>Southwest</h4>
-					<p class="text-muted">Website Design</p>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6 portfolio-item">
-				<a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-					<div class="portfolio-hover">
-						<div class="portfolio-hover-content">
-							<i class="fas fa-plus fa-3x"></i>
+					<div class="col-2 pt-2 px-0">
+						<div class="col-12 text-center h-70" >
+							<i class="fa fa-plus-circle fa-2x" style="color:#adaaaa"></i>
+						</div>
+						<div class="col-12 px-0  text-center h-30" >
+							<span style="color:#adaaaa"><b>더보기</b></span>
 						</div>
 					</div>
-					<img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-				</a>
-				<div class="portfolio-caption">
-					<h4>Window</h4>
-					<p class="text-muted">Photography</p>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-
-<!-- About -->
-<section id="about">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2 class="section-heading text-uppercase">About</h2>
-				<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-12">
-				<ul class="timeline">
-					<li>
-						<div class="timeline-image">
-							<img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-						</div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<h4>2009-2011</h4>
-								<h4 class="subheading">Our Humble Beginnings</h4>
+		
+		
+		
+		<div class="col-12 px-0 pt-5 pb-5" style="background-color:">
+			<div class="col-8 mx-auto">
+				<div class="col-10 mx-auto px-0 row" style="height:600px;">
+					<div class="col-3 h-50 pt-3">
+						<div class="col-10 px-0 h-100 m-1" style="background-color:white;border:1px solid #efe9e9">
+							<div class="col-12 h-65 px-0">
+									<img class="w-100 h-100" alt="" src="img/header-bg.jpg">
 							</div>
-							<div class="timeline-body">
-								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed,
-									incidunt et ea quo dolore laudantium consectetur!</p>
+							<div class="col-12 h-15 px-0 pt-2 text-center">
+								<span>정품 아디다스 바지</span>
 							</div>
-						</div>
-					</li>
-					<li class="timeline-inverted">
-						<div class="timeline-image">
-							<img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-						</div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<h4>March 2011</h4>
-								<h4 class="subheading">An Agency is Born</h4>
+							<div class="col-12 mx-auto h-10 px-0 pt-2 pb-2 text-left form-inline">
+								<div class="col-8 px-3">
+									<span ><b>70,000</b></span>
+									<span><b>원</b></span>
+								</div>
+								<div class="col-4 px-0">
+									<span style="font-size:10px">7</span>
+									<span style="font-size:10px">시간 전</span>
+								</div>
 							</div>
-							<div class="timeline-body">
-								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed,
-									incidunt et ea quo dolore laudantium consectetur!</p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="timeline-image">
-							<img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-						</div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<h4>December 2012</h4>
-								<h4 class="subheading">Transition to Full Service</h4>
-							</div>
-							<div class="timeline-body">
-								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed,
-									incidunt et ea quo dolore laudantium consectetur!</p>
-							</div>
-						</div>
-					</li>
-					<li class="timeline-inverted">
-						<div class="timeline-image">
-							<img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-						</div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<h4>July 2014</h4>
-								<h4 class="subheading">Phase Two Expansion</h4>
-							</div>
-							<div class="timeline-body">
-								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed,
-									incidunt et ea quo dolore laudantium consectetur!</p>
-							</div>
-						</div>
-					</li>
-					<li class="timeline-inverted">
-						<div class="timeline-image">
-							<h4>
-								Be Part
-								<br>
-								Of Our
-								<br>
-								Story!
-							</h4>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- Team -->
-<section class="bg-light" id="team">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-				<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="team-member">
-					<img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-					<h4>Kay Garland</h4>
-					<p class="text-muted">Lead Designer</p>
-					<ul class="list-inline social-buttons">
-						<li class="list-inline-item">
-							<a href="#">
-								<i class="fab fa-twitter"></i>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a href="#">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a href="#">
-								<i class="fab fa-linkedin-in"></i>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="team-member">
-					<img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-					<h4>Larry Parker</h4>
-					<p class="text-muted">Lead Marketer</p>
-					<ul class="list-inline social-buttons">
-						<li class="list-inline-item">
-							<a href="#">
-								<i class="fab fa-twitter"></i>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a href="#">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a href="#">
-								<i class="fab fa-linkedin-in"></i>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="team-member">
-					<img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-					<h4>Diana Pertersen</h4>
-					<p class="text-muted">Lead Developer</p>
-					<ul class="list-inline social-buttons">
-						<li class="list-inline-item">
-							<a href="#">
-								<i class="fab fa-twitter"></i>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a href="#">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a href="#">
-								<i class="fab fa-linkedin-in"></i>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-8 mx-auto text-center">
-				<p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- Clients -->
-<section class="py-5">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 col-sm-6">
-				<a href="#">
-					<img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-				</a>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<a href="#">
-					<img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-				</a>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<a href="#">
-					<img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-				</a>
-			</div>
-			<div class="col-md-3 col-sm-6">
-				<a href="#">
-					<img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-				</a>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- Contact -->
-<section id="contact">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2 class="section-heading text-uppercase">Contact Us</h2>
-				<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-12">
-				<form id="contactForm" name="sentMessage" novalidate="novalidate">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="form-group">
-								<input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
-								<p class="help-block text-danger"></p>
-							</div>
-							<div class="form-group">
-								<input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-								<p class="help-block text-danger"></p>
-							</div>
-							<div class="form-group">
-								<input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
-								<p class="help-block text-danger"></p>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-								<p class="help-block text-danger"></p>
-							</div>
-						</div>
-						<div class="clearfix"></div>
-						<div class="col-lg-12 text-center">
-							<div id="success"></div>
-							<button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
 						</div>
 					</div>
-				</form>
+					
+					<div class="col-3 h-50 pt-3">
+						<div class="col-10 px-0 h-100 m-1" style="background-color:white;border:1px solid #efe9e9">
+							<div class="col-12 h-65 px-0">
+									<img class="w-100 h-100" alt="" src="img/header-bg.jpg">
+							</div>
+							<div class="col-12 h-15 px-0 pt-2 text-center">
+								<span>정품 아디다스 바지</span>
+							</div>
+							<div class="col-12 mx-auto h-10 px-0 pt-2 pb-2 text-left form-inline">
+								<div class="col-8 px-3">
+									<span ><b>70,000</b></span>
+									<span><b>원</b></span>
+								</div>
+								<div class="col-4 px-0">
+									<span style="font-size:10px">7</span>
+									<span style="font-size:10px">시간 전</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-3 h-50 pt-3">
+						<div class="col-10 px-0 h-100 m-1" style="background-color:white;border:1px solid #efe9e9">
+							<div class="col-12 h-65 px-0">
+									<img class="w-100 h-100" alt="" src="img/header-bg.jpg">
+							</div>
+							<div class="col-12 h-15 px-0 pt-2 text-center">
+								<span>정품 아디다스 바지</span>
+							</div>
+							<div class="col-12 mx-auto h-10 px-0 pt-2 pb-2 text-left form-inline">
+								<div class="col-8 px-3">
+									<span ><b>70,000</b></span>
+									<span><b>원</b></span>
+								</div>
+								<div class="col-4 px-0">
+									<span style="font-size:10px">7</span>
+									<span style="font-size:10px">시간 전</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-3 h-50 pt-3">
+						<div class="col-10 px-0 h-100 m-1" style="background-color:white;border:1px solid #efe9e9">
+							<div class="col-12 h-65 px-0">
+									<img class="w-100 h-100" alt="" src="img/header-bg.jpg">
+							</div>
+							<div class="col-12 h-15 px-0 pt-2 text-center">
+								<span>정품 아디다스 바지</span>
+							</div>
+							<div class="col-12 mx-auto h-10 px-0 pt-2 pb-2 text-left form-inline">
+								<div class="col-8 px-3">
+									<span ><b>70,000</b></span>
+									<span><b>원</b></span>
+								</div>
+								<div class="col-4 px-0">
+									<span style="font-size:10px">7</span>
+									<span style="font-size:10px">시간 전</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-3 h-50 pt-3">
+						<div class="col-10 px-0 h-100 m-1" style="background-color:white;border:1px solid #efe9e9">
+							<div class="col-12 h-65 px-0">
+									<img class="w-100 h-100" alt="" src="img/header-bg.jpg">
+							</div>
+							<div class="col-12 h-15 px-0 pt-2 text-center">
+								<span>정품 아디다스 바지</span>
+							</div>
+							<div class="col-12 mx-auto h-10 px-0 pt-2 pb-2 text-left form-inline">
+								<div class="col-8 px-3">
+									<span ><b>70,000</b></span>
+									<span><b>원</b></span>
+								</div>
+								<div class="col-4 px-0">
+									<span style="font-size:10px">7</span>
+									<span style="font-size:10px">시간 전</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-3 h-50 pt-3">
+						<div class="col-10 px-0 h-100 m-1" style="background-color:white;border:1px solid #efe9e9">
+							<div class="col-12 h-65 px-0">
+									<img class="w-100 h-100" alt="" src="img/header-bg.jpg">
+							</div>
+							<div class="col-12 h-15 px-0 pt-2 text-center">
+								<span>정품 아디다스 바지</span>
+							</div>
+							<div class="col-12 mx-auto h-10 px-0 pt-2 pb-2 text-left form-inline">
+								<div class="col-8 px-3">
+									<span ><b>70,000</b></span>
+									<span><b>원</b></span>
+								</div>
+								<div class="col-4 px-0">
+									<span style="font-size:10px">7</span>
+									<span style="font-size:10px">시간 전</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-3 h-50 pt-3">
+						<div class="col-10 px-0 h-100 m-1" style="background-color:white;border:1px solid #efe9e9">
+							<div class="col-12 h-65 px-0">
+									<img class="w-100 h-100" alt="" src="img/header-bg.jpg">
+							</div>
+							<div class="col-12 h-15 px-0 pt-2 text-center">
+								<span>정품 아디다스 바지</span>
+							</div>
+							<div class="col-12 mx-auto h-10 px-0 pt-2 pb-2 text-left form-inline">
+								<div class="col-8 px-3">
+									<span ><b>70,000</b></span>
+									<span><b>원</b></span>
+								</div>
+								<div class="col-4 px-0">
+									<span style="font-size:10px">7</span>
+									<span style="font-size:10px">시간 전</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-3 h-50 pt-3">
+						<div class="col-10 px-0 h-100 m-1" style="background-color:white;border:1px solid #efe9e9">
+							<div class="col-12 h-65 px-0">
+									<img class="w-100 h-100" alt="" src="img/header-bg.jpg">
+							</div>
+							<div class="col-12 h-15 px-0 pt-2 text-center">
+								<span>정품 아디다스 바지</span>
+							</div>
+							<div class="col-12 mx-auto h-10 px-0 pt-2 pb-2 text-left form-inline">
+								<div class="col-8 px-3">
+									<span ><b>70,000</b></span>
+									<span><b>원</b></span>
+								</div>
+								<div class="col-4 px-0">
+									<span style="font-size:10px">7</span>
+									<span style="font-size:10px">시간 전</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
