@@ -65,3 +65,4 @@
 		$(".loginFrm").attr("method", "post").attr("action", "login.do").submit();
 	});
 </script>
+

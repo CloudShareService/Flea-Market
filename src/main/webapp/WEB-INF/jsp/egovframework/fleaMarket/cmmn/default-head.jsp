@@ -6,8 +6,8 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>git test 입니다.</title>
-<link>
+<title>플리마켓</title>
+
 <!-- Bootstrap core CSS -->
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -35,3 +35,4 @@
 
 <!-- Plugin JavaScript -->
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+

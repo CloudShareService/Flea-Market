@@ -60,3 +60,4 @@ public class AuthProvider implements AuthenticationProvider {
 	}
 
 }
+

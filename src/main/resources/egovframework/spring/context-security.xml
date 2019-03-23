@@ -41,3 +41,4 @@
 		<security:authentication-provider ref="authProvider" />
 	</security:authentication-manager>
 </beans>
+
