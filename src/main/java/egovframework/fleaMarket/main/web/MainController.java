@@ -1,13 +1,21 @@
 package egovframework.fleaMarket.main.web;
 
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import egovframework.fleaMarket.main.service.MainService;
+
 @Controller
 public class MainController {
-
+	
+	@Resource(name = "mainService")
+	MainService mainService;
+	
 	@RequestMapping(value = "main.do")
 	public String main() throws Exception {
 		
@@ -35,6 +43,8 @@ public class MainController {
 	@RequestMapping(value = "carousel.do", method = RequestMethod.GET)
 	public String carousel() throws Exception {
 		
+		
+		
 		return "main/carousel.tiles";
 	}
 	
@@ -56,7 +66,7 @@ public class MainController {
 		return "category/list.tiles";
 	}
 	
-	@RequestMapping(value = "/shop.do",method = RequestMethod.GET)
+	@RequestMapping(value = "/shop.do", method = RequestMethod.GET)
 	public String home() throws Exception {
 		
 		return "shop/home.tiles";
@@ -70,6 +80,18 @@ public class MainController {
 	public String follower() throws Exception {
 		
 		return "shop/follower.tiles";
+	}
+	
+	@RequestMapping(value = "/product_home.do", method = RequestMethod.GET)
+	public String product_home() throws Exception {
+		
+		return "product/home.tiles";
+	}
+	
+	@RequestMapping(value = "/test.do", method = RequestMethod.POST)
+	public void test(HttpServletRequest req) throws Exception {
+		
+		mainService.test(req);
 	}
 	
 }
