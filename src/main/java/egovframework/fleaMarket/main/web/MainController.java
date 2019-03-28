@@ -18,7 +18,7 @@ public class MainController {
 	
 	@RequestMapping(value = "main.do")
 	public String main() throws Exception {
-		
+		System.out.println("asdasd");
 		return "main/main.tiles";
 	}
 
