@@ -6,8 +6,8 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>git test 입니다.</title>
-<link>
+<title>플리마켓</title>
+
 <!-- Bootstrap core CSS -->
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -17,10 +17,13 @@
 <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+<link href='' rel='stylesheet' type='text/css'>
+
 
 <!-- Custom styles for this template -->
 <link href="css/agency.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" type='text/css'>
+<link href="css/shop.css" rel="stylesheet" type='text/css'>
 
 <!-- google font -->
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
@@ -32,3 +35,4 @@
 
 <!-- Plugin JavaScript -->
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
