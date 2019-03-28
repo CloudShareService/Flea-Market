@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 	<section class="bg-light" id="portfolio">
         <div class="container p-3">
+        
             <div class="w-100 title mb-2" style="border-bottom:1px solid #ccc">
                     <span style="font-size:30px">MyStore</span>
                 </div>
@@ -11,7 +13,8 @@
                         <img class="text-center" src="img/about/1.jpg" style="border-radius: 100%">
                     </div>
                     <div class="w-60 mt-4 mb-4" style="margin:0 auto">
-                        <div style="color:white">상점 이름: Shop No.211234</div>
+                        <div style="color:white">상점 이름: Shop 
+                        <c:out value="${userName}"/></div>
                         <div>
                             <i class="fas fa-star yellow"></i>
                             <i class="fas fa-star yellow"></i>
