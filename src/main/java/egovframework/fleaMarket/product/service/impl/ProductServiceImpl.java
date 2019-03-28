@@ -25,5 +25,11 @@ public class ProductServiceImpl extends EgovAbstractServiceImpl implements Produ
 		// TODO Auto-generated method stub
 		return productMapper.selectProduct(p_no);
 	}
+	
+	@Override
+	public List<EgovMap> selectCategoryName(int p_no) throws Exception {
+		// TODO Auto-generated method stub
+		return productMapper.selectCategoryName(p_no);
+	}
 
 }

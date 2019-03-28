@@ -10,5 +10,6 @@ import egovframework.rte.psl.dataaccess.util.EgovMap;
 public interface ProductMapper {
 
 	List<EgovMap> selectProduct(int p_no) throws Exception;
+	List<EgovMap> selectCategoryName(int p_no) throws Exception;
 
 }

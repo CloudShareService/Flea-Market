@@ -9,5 +9,15 @@
 			FROM product
 			WHERE p_no = #{p_no}
 	</select>
+	
+	<!-- category테이블 데이터 조회 -->
+	<select id="selectCategoryName" parameterType="int" resultType="egovMap">
+			SELECT
+				product.p_no, product.c_code, category.c_contents 
+			FROM product as product
+			INNER JOIN category as category
+			ON product.c_code = category.c_code
+			WHERE p_no = #{p_no}
+	</select>
 
 </mapper>

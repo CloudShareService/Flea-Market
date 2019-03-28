@@ -43,15 +43,20 @@ public class ProductController {
 	private ProductService productService;
 
 	@RequestMapping(value = "/product_home.do", method = RequestMethod.GET)
-	public String product_home() throws Exception {
+	public String product_home(ModelMap model) throws Exception {
 		
-		int p_no = 1;
-		List<EgovMap> test;
+		int p_no = 0;
+		List<EgovMap> productList = productService.selectProduct(p_no);
+		//product테이블 데이터 
+		System.out.println(productList);
 		
-		test = productService.selectProduct(p_no);
+		model.addAttribute("productList", productList);
 		
-		System.out.println("TEST 입니다");
-		System.out.println(test);
+		List<EgovMap> categoryName = productService.selectCategoryName(p_no);		
+		//category테이블 데이터 
+		System.out.println(categoryName);
+		
+		model.addAttribute("categoryName", categoryName);
 		
 		return "product/home.tiles";
 	}
