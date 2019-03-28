@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="egovframework.fleaMarket.myStore.service.impl.MyStoreMapper">
+<mapper namespace="egovframework.myStore.service.impl.MyStoreMapper">
 	<insert id="register" parameterType="productVO">
 		INSERT INTO product		(
 			c_code
@@ -26,4 +26,9 @@
 		, 	#{productContents}
 		)
 	</insert>
+	
+	<select id="selectACategoryList" resultType="egovMap">
+		SELECT *
+		FROM category_a;
+	</select>
 </mapper>
