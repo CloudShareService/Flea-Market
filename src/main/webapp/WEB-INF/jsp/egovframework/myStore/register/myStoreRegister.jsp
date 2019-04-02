@@ -236,5 +236,5 @@
 				event.preventDefault();
 				alert("카테고리를 선택하세요");
 			}
-		})
+		});
 	</script>        
