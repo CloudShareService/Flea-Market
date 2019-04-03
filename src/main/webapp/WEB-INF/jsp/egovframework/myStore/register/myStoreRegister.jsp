@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 	<!-- Dropzone.css -->
     <link href="myStore/vendors/dropzone/dist/min/dropzone.min.css" rel="stylesheet">
@@ -76,17 +77,23 @@
 	                  </div>
 	                  <div class="x_content">
 	                    <br />
-	                    <form class="form-horizontal form-label-left" id="register_form" action="register.do" method="post">
+	                    <form class="form-horizontal form-label-left" id="register_form" action="registerProduct.do" method="post">
 	
 	                      <div class="form-group">
 	                        <label class="control-label col-md-2 col-sm-2 col-xs-12">카테고리</label>
 	                        <div class="col-md-4 col-sm-4 col-xs-12">
-	                          <select class="form-control" name="categoryCode">
-	                            <option value="1">여성의류</option>
-	                            <option value="2">남성의류</option>
-	                            <option value="3">패션잡화</option>
-	                            <option value="4">뷰티/미용</option>
-	                            <option value="5">유아동/출산</option>
+	                          <select class="form-control" id="a_category" name="aCategoryCode">
+	                            <option value="">---------</option>
+	                            <c:forEach items="${aCategoryList}" var="aCategoryList">
+	                            	<option value="<c:out value='${aCategoryList.caCode}' />">
+	                            		<c:out value='${aCategoryList.caContents}' />
+	                            	</option>
+	                            </c:forEach>
+	                          </select>
+	                        </div>
+	                        <div class="col-md-4 col-sm-4 col-xs-12">
+	                          <select class="form-control" id="b_category" name="bCategoryCode">
+	                            <option value="">---------</option>
 	                          </select>
 	                        </div>
 	                      </div>
@@ -186,5 +193,48 @@
     <script src="myStore/vendors/switchery/dist/switchery.min.js"></script>
 
 	<script type="text/javascript">
+		var select = {
+			displayBCategory : function(bCategoryObj) {
+				if (bCategoryObj.length > 0) {						
+					$.each(bCategoryObj, function(index, item) {
+						var bCategoryOption = "<option value='" + item.cbCode + "'>" + item.cbContents + "</option>";
+						
+						$('#b_category').append(bCategoryOption);
+					});	
+				} else {
+					$('#b_category').append("<option value=''>---------</option>");
+				}	
+			}		
+		};
 		
+		$('#a_category').change(function() {
+			var param = $(this).val();
+			var form = {"param" : param};
+			
+			$('#b_category').children().remove();
+			
+			$.ajax({
+				type : "post",
+				url : "bCategoryList.do",
+				contentType : "application/json",
+				data : JSON.stringify(form),
+				success : function(data) {
+					var bCategoryObj = JSON.parse(data);
+					
+					console.log(bCategoryObj);
+					
+					select.displayBCategory(bCategoryObj);
+				},
+				error : function(event) {
+					
+				}
+			});
+		});
+		
+		$('#register_form').submit(function(event) {
+			if ($('#a_category option:selected').val() === "" || $('#b_category option:selected').val() === "") {
+				event.preventDefault();
+				alert("카테고리를 선택하세요");
+			}
+		});
 	</script>        

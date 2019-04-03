@@ -18,4 +18,6 @@
     <link href="myStore/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
     <!-- Custom Theme Style -->
     <link href="myStore/build/css/custom.min.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="myStore/vendors/jquery/dist/jquery.min.js"></script>
 </head>

@@ -1,10 +1,11 @@
-package egovframework.fleaMarket.myStore.service;
+package egovframework.myStore.register.service;
 
 import java.util.Date;
 
 public class ProductVO {
 	private int productNo; /* 상품 번호 */  
-	private int categoryCode; /* 카테고리 코드 */
+	private int aCategoryCode; /* a카테고리 코드 */
+	private int bCategoryCode; /* b카테고리 코드 */
 	private int userNo; /* 유저 번호 */
 	private String productStatementCode; /* 상품 상태 코드 */
 	private String productTitle; /* 상품 제목 */
@@ -21,11 +22,17 @@ public class ProductVO {
 	public void setProductNo(int productNo) {
 		this.productNo = productNo;
 	}
-	public int getCategoryCode() {
-		return categoryCode;
+	public int getaCategoryCode() {
+		return aCategoryCode;
 	}
-	public void setCategoryCode(int categoryCode) {
-		this.categoryCode = categoryCode;
+	public void setaCategoryCode(int aCategoryCode) {
+		this.aCategoryCode = aCategoryCode;
+	}
+	public int getbCategoryCode() {
+		return bCategoryCode;
+	}
+	public void setbCategoryCode(int bCategoryCode) {
+		this.bCategoryCode = bCategoryCode;
 	}
 	public int getUserNo() {
 		return userNo;
