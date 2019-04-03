@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import egovframework.fleaMarket.login.service.UserVO;
-import egovframework.fleaMarket.shop.service.ShopService;
+import egovframework.fleaMarket.shop.home.service.ShopService;
 import egovframework.rte.psl.dataaccess.util.EgovMap;
 
 @Controller
