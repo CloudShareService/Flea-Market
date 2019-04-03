@@ -43,8 +43,6 @@ public class MainController {
 	@RequestMapping(value = "carousel.do", method = RequestMethod.GET)
 	public String carousel() throws Exception {
 		
-		
-		
 		return "main/carousel.tiles";
 	}
 	
@@ -65,4 +63,6 @@ public class MainController {
 		
 		return "category/list.tiles";
 	}
+	
+	
 }

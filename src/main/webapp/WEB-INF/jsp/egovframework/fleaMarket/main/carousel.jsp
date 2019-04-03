@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-
+<!-- carousel -->
+<script src="js/carousel.js"></script>
 <div class="container-fuild">
 
 	<div class="col-6 px-0 mx-auto row mt-5">
@@ -368,8 +369,8 @@
 	</div>
 	
 	<div  class="test-form">
-		<form action="test.do" method="post" enctype="multipart/form-data">
-			<input id="imgInp" type="file">
+		<form id="uploadFrm" action="upload_test.do" method="post" enctype="multipart/form-data">
+			<input id="imgInp" type="file" name="upload[]" multiple="multiple" accept="image/*">
 			<div id="dragdrop" class="col-12" style="height:300px;background-color:#efe9e9" >
 				<div class="preview col-3" style="height:300px;background-color:#efe9e9" >
 					

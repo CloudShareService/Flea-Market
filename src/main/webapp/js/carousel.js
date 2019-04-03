@@ -1,4 +1,4 @@
-	var drop = document.getElementById("dragdrop");
+	var drop = document.getElementById("imgInp");
 
   
 	$(function() {
@@ -10,36 +10,48 @@
 	  		
 		  	e.preventDefault(); // 이 부분이 없으면 파일을 브라우저 실행해버립니다.
 		  	
-			var data = e.dataTransfer;
+			var data 			= e.dataTransfer;
 			
-			if (data.items) { // DataTransferItemList 객체 사용
-				for (var i = 0; i < data.items.length; i++) { // DataTransferItem 객체 사용
-					var div = document.createElement("div"),
-						img = document.createElement("img");
+			if (!data.items) {
+				alert("파일이 없습니다");
+				return;
+			}
+			
+			for (var i=0,loop=data.items.length; i<loop; i++) { // DataTransferItem 객체 사용
+				var div				= document.createElement("div"),
+					img				= document.createElement("img"),
+					file			= data.files[i],
+					fileType		= data.items[i].kind;
+					fileCheck		= /\.(gif|jpg|jpeg|png)$/i.test(data.files[i].name);
 					
-					if (data.items[i].kind == "file") { // 아이템 종류가 파일이면
-						
-						var reader = new FileReader();
-						
-						reader.readAsDataURL(data.files[i]);
-						
-						reader.onload = function(e) {
-							
-							img.setAttribute("src",e.target.result);
-							img.setAttribute("class","col-12");
-							div.setAttribute("class","col-12 previews_"+i);
-							div.appendChild(img);
-							
-							$(".preview").append(div);
-						}
-					}
+				if (!fileCheck) { // 아이템 종류가 파일이면
+					alert("올바른 확장자가 아닙니다. *표준 확장자: gif|jpg|jpeg|png*");
+					return;
 				}
-			} else { // File API 사용
-				for (var i = 0; i < data.files.length; i++) {
-					alert(data.files[i].name);
+				
+				var reader = new FileReader();
+				
+				reader.readAsDataURL(file);
+				
+				reader.onload = function(e) {
+					
+					img.setAttribute("src",e.target.result);
+					img.setAttribute("class","col-12");
+					div.setAttribute("class","col-12 previews_"+i);
+					div.appendChild(img);
+					
+					$(".preview").append(div);
+					
+					var form = $("#uploadFrm");
+					var formData = new FormData(form);
+					
 				}
 			}
+			$("#imgInp").prop("files",data.files);
+			
 		  };
 	})
   
   
+  	
+      
