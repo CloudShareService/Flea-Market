@@ -65,3 +65,4 @@ public class MainController {
 		
 		return "category/list.tiles";
 	}
+}
