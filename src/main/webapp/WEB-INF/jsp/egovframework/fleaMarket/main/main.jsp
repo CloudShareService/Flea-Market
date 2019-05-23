@@ -39,7 +39,7 @@
 	
 		<div class="col-12 mx-auto px-0 pt-5 pb-5" style="background-color:#f9f9f9">
 			<div class="col-7 pl-5 mx-auto">
-				<h3 style="color:#adaaaa">추천 상품</h3>
+				<h3 style="color:#adaaaa">잘 지내 다들~~~? 아마존 디비 끊어</h3>
 			</div>
 			<div class="col-8 px-0 mx-auto row" style="height:350px;">
 				<a class="carousel-control-prev col-1 px-0 h-30 my-auto" href="#carouselExampleIndicators" role="button" data-slide="prev" style="position:relative;">
